@@ -8,3 +8,6 @@ Author: Krupal Shah
 ### Tuesday
 - Debugging the solution written by Neeraj sir. 
 - Got a brief from Sai sir about code suggestion feature in Umetrix.
+### Wednesday
+- Made the website run. 
+- Frontend editing works begun.
