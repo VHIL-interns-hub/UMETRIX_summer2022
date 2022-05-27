@@ -13,3 +13,7 @@ Author: Krupal Shah
 - Frontend editing works begun.
 ### Thursday
 - Writing service for database connection [Half-written]
+### Friday
+- Virtual meet with Neeraj sir and try debugging Umetrix File Upload Tool.
+- A standalone project to link asp.net with MongoDB.
+- Learn MongoDB
