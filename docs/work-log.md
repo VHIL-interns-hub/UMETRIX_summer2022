@@ -11,3 +11,5 @@ Author: Krupal Shah
 ### Wednesday
 - Made the website run. 
 - Frontend editing works begun.
+### Thursday
+- Writing service for database connection [Half-written]
