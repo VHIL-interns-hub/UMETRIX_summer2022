@@ -1,5 +1,5 @@
 # Umetrix_Summer2022
-Author: Krupal Shah
+Krupal Shah
 ## Week 1 [23 May 20222 - 28 May 2022]
 ### Monday
 - Created guidelines [4]. 
@@ -12,8 +12,10 @@ Author: Krupal Shah
 - Made the website run. 
 - Frontend editing works begun.
 ### Thursday
-- Writing service for database connection [Half-written]
+- Writing service for database connection.
 ### Friday
 - Virtual meet with Neeraj sir and try debugging Umetrix File Upload Tool.
 - A standalone project to link asp.net with MongoDB.
 - Learn MongoDB
+### Saturday
+- Understand the requirements of Data storing and learn Django.
