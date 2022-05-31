@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="10.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_toLeftOf="@id/unread_count" android:layout_toRightOf="@android:id/icon" android:layout_centerVertical="true">
+        <TextView android:textAppearance="?android:textAppearanceListItemSmall" android:textColor="#ffeeeeee" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textIsSelectable="false" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffeeeeee" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textIsSelectable="false" android:alpha="0.5" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceListItemSmall" android:textColor="#ffeeeeee" android:gravity="center_vertical" android:id="@id/unread_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/separator" android:background="#ff515151" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

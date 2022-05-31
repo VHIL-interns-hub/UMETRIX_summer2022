@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_new_entries">
+        <item quantity="other">%d nových článků</item>
+        <item quantity="one">Jeden nový článek</item>
+        <item quantity="few">%d nové články</item>
+    </plurals>
+</resources>

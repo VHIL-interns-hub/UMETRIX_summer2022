@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_toolbar" />
+    <TabHost android:id="@id/tabHost" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_layout" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/feed_tab" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/url_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="@string/feed_url" />
+                    <EditText android:id="@id/feed_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:hint="@string/website_or_feed" android:singleLine="true" android:layout_below="@id/url_textview" android:inputType="textUri" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/name_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="@string/feed_title" android:layout_below="@id/feed_url" />
+                    <EditText android:id="@id/feed_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:hint="@string/optional" android:singleLine="true" android:layout_below="@id/name_textview" />
+                    <CheckBox android:id="@id/retrieve_fulltext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/get_full_text" android:layout_below="@id/feed_title" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/filters_tab" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/filter_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="@string/feed_filters" />
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/filter_textview">
+                        <TextView android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_filters" />
+                        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="singleChoice" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+    <LinearLayout android:gravity="right" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:onClick="onClickCancel" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:onClick="onClickOk" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

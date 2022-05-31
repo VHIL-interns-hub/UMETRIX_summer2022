@@ -1,0 +1,26 @@
+﻿@model UmetrixWeb.Models.SearchForm
+@{
+    ViewBag.Title = "ProductivityTool";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- @Html.Partial("_Progress") -->
+
+
+<h1>Productivity Tool</h1>
+
+<div class="row">
+    <h3>Search the tag of snippet required.</h3>
+
+    <!-- search box -------------- -->
+    <form asp-action="Index" asp-controller="Home">
+        <label asp-for="Tag"></label>
+        <input asp-for="Tag" placeholder="Your Tag goes here" />
+        <input type="submit" />
+    </form>
+
+    <div id="search">
+        <asp:TextBox ID="txtSearchMaster" runat="server"></asp:TextBox>
+        <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click" />
+    </div>
+</div>
+
