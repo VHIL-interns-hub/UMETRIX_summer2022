@@ -23,3 +23,5 @@ Krupal Shah
 ### Monday
 - Meet with Prof. and present the ideas and work of project.
 - Learning MongoDB
+### Tuesday
+- Built API for Umetrix to MongoDB connection using Django
