@@ -19,3 +19,7 @@ Krupal Shah
 - Learn MongoDB
 ### Saturday
 - Understand the requirements of Data storing and learn Django.
+## Week 2 [30 May 2022 - 4 June 2022]
+### Monday
+- Meet with Prof. and present the ideas and work of project.
+- Learning MongoDB
