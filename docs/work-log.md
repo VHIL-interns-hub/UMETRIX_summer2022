@@ -29,3 +29,5 @@ Krupal Shah
 - Debugging the service or API
 ### Thursday
 - Made the API to connect and tried to embed it in the C# MVC frontend
+### Friday
+- Connect C# MVC to API
