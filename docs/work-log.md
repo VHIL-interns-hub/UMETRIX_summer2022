@@ -31,3 +31,6 @@ Krupal Shah
 - Made the API to connect and tried to embed it in the C# MVC frontend
 ### Friday
 - Connect C# MVC to API
+##Week 3[6 June 2022 - 11 June 2022]
+### Monday
+- Umetrix tool got up and running for small file size [<35MB]
