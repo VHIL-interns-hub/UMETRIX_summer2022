@@ -34,3 +34,7 @@ Krupal Shah
 ## Week 3 [6 June 2022 - 11 June 2022]
 ### Monday
 - Umetrix tool got up and running for small file size [<35MB]
+### Tuesday
+- Made Umetrix Tool run for any file size.
+- Created a simple Frontend displaying search results.
+- Configured GET request.
