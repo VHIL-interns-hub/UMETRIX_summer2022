@@ -38,3 +38,5 @@ Krupal Shah
 - Made Umetrix Tool run for any file size.
 - Created a simple Frontend displaying search results.
 - Configured GET request.
+### Wednesday
+- Setup and configure Umetrix tool in Server computer.
