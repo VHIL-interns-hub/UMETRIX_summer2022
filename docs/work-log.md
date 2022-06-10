@@ -40,3 +40,5 @@ Krupal Shah
 - Configured GET request.
 ### Wednesday
 - Setup and configure Umetrix tool in Server computer.
+### Thursday
+- Run the Django service and connect MongoDB with C# mvc in the Server computer.
