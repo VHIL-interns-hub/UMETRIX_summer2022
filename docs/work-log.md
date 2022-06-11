@@ -42,3 +42,5 @@ Krupal Shah
 - Setup and configure Umetrix tool in Server computer.
 ### Thursday
 - Run the Django service and connect MongoDB with C# mvc in the Server computer.
+### Friday
+- Feeding in the guidelines made by me in the Umetrix system.
