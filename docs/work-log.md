@@ -44,3 +44,15 @@ Krupal Shah
 - Run the Django service and connect MongoDB with C# mvc in the Server computer.
 ### Friday
 - Feeding in the guidelines made by me in the Umetrix system.
+## Week 4 [13 June 2022 - 18 June 2022]
+### Monday
+- Create Front-end for some required pages.
+### Tuesday
+- Get the POST request running and modify the backend functioning. 
+### Wednesday
+- Presenting the work done to Neeraj sir and Sai sir and make changes as per suggested.
+- Making changes in computer and IIS settings to try and bring Umetrix tool on intranet.
+### Thursday
+- Bring the Umetrix tool live on Intranet.
+### Friday
+- Learn about reverse proxy and how to get the app online. 
