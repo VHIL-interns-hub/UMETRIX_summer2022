@@ -56,3 +56,23 @@ Krupal Shah
 - Bring the Umetrix tool live on Intranet.
 ### Friday
 - Learn about reverse proxy and how to get the app online. 
+### Saturday
+- Learn about functioning of Django in backend and how to do reverse proxy and try doing one. 
+## Week 5 [20 June 2022 - 25 June 2022]
+### Monday
+- Change the app settings and IIS settings to get in online.
+- Work on Umetrix features and add a few guidelines.
+### Tuesday
+- Bring Umetrix online on internet through SERC Website.
+### Wednesday
+- Make changes in data storing as suggested by Sai sir.
+- Provide multi-tag search and store option for same code all at a time.
+### Thurday
+- Provide filtering option with respect to company in the search bar.
+- Add the help text when the button or input field gets active.
+### Friday
+- Meeting and presentation to sir.
+- Working on the styling and CSS.
+### Saturday
+- Working on the styling and CSS.
+- Report making.
