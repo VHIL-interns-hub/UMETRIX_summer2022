@@ -1,0 +1,6 @@
+- https://www.c-sharpcorner.com/UploadFile/3d39b4/working-with-html-beginform-and-ajax-beginform-in-mvc-3/
+- https://github.com/neerajmathur/UMETRIX
+- https://blog.fearcat.in/a?ID=01550-9d6f3276-7c94-4098-8fd8-57ffa3f7f9fa
+- https://www.mongodb.com/nosql-explained
+- https://stackoverflow.com/questions/62427146/django-rest-framework-get-field-name-from-model-definition
+- https://www.webforefront.com/django/introrestservices.html
