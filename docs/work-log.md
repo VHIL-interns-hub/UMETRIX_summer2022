@@ -76,3 +76,7 @@ Krupal Shah
 ### Saturday
 - Working on the styling and CSS.
 - Report making.
+## Week 6[27 June 2022 - 30 June 2022]
+### Monday
+- Report Making.
+- Upload Code files and references. 
